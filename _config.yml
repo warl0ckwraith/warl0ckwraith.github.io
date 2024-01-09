@@ -1,0 +1,48 @@
+github:
+  private: false
+  license:
+    name: MIT
+  source:
+    branch: "master"
+    path: "/"
+  repository_url: "https://github.com/warl0ckwraith/warl0ckwraith.github.io"
+
+plugins:
+  - jekyll-redirect-from
+
+title: "Sanidhya Soni - Personal Portfolio"
+
+repository: "warl0ckwraith/warl0ckwraith.github.github.io"
+author: "#pk"
+description: "Personal Portfolio"
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# Layout
+
+sidebar: true               # show a sidebar instead of the usual header
+show_excerpts: true          # show article excerpts on the home page
+show_related: true           # show the previous and next links after every post
+show_description: true       # show the site description in the sidebar
+show_title: false            # always keep the site title visible
+
+# Styling
+
+#dark_header: true            # always keep the header dark
+#minimal: false               # use simpler style
+
+# Menu
+navigation:
+  # - {title: "Home", icon: lnr-home, url: "#home"}
+  - {title: "About Me", icon: lnr-user, url: "#about-me"}
+  - {title: "Resume", icon: lnr-graduation-hat, url: "#resume"}
+  - {title: "Portfolio", icon: lnr-briefcase, url: "#portfolio"}
+  - {title: "Blog", icon: lnr-book, url: "#blog"}
+  - {title: "Contact", icon: lnr-envelope, url: "#contact"}
+
+
+external:
+  - {title: "Github", icon: fab fa-github, url: "https://github.com/warl0ckwraith"}
+  - {title: "LinkedIn", icon: fab fa-linkedin-in, url: "https://www.linkedin.com/in/sanidhyasonii"}
